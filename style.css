@@ -366,3 +366,21 @@ main {
   font-weight: 500;
   color: #808080;
 }
+
+.bitcoin-baby--container {
+  position: relative;
+}
+
+.bitcoin-baby--container h2 {
+  position: absolute;
+  left: calc(50% - 82px);
+  margin-top: 50px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  width: 164px;
+  color: var(--just-white);
+  align-self: center;
+}
+.bitcoin-baby--container img {
+  width: 100%;
+}
