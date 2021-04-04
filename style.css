@@ -515,3 +515,28 @@ main {
   background-image: url('./assets/icons/arrow-right.svg');
   vertical-align: text-bottom;
 }
+
+footer {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  background-color: var(--bitcoin-orange);
+  
+}
+
+.social-media {
+  margin-right: 50px;
+}
+
+.social-media li {
+  list-style: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2.8rem;
+  color: var(--just-white);
+}
+
+.batabit-image {
+  align-self: center;
+}
